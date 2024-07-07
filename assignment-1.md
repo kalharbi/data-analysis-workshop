@@ -41,7 +41,7 @@ pip install playwright
 playwright install
 ```
 
-## Step 4: Run a Python script
+## Step 4: Create and run your Python program
 
 - Go to Visual Studio Code, and create a new file named `assignment1.py`.
 - Copy and paste the following code:
