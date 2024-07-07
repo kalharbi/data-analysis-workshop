@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from playwright.sync_api import sync_playwright
 
 def run(playwright):
-    browser = playwright.chromium.launch(headless=False)  # Set headless=False if you want to see the browser UI
+    browser = playwright.chromium.launch(headless=False)
     page = browser.new_page()
     page.goto('http://google.com')
     print(page.title())

@@ -41,7 +41,34 @@ pip install playwright
 playwright install
 ```
 
+## Step 4: Run a Python script
+
+- Go to Visual Studio Code, and create a new file named `assignment1.py`.
+- Copy and paste the following code:
+
+```python
+import jupyterlab
+import pandas as pd
+import matplotlib.pyplot as plt
+from playwright.sync_api import sync_playwright
+
+def run(playwright):
+    browser = playwright.chromium.launch(headless=False)
+    page = browser.new_page()
+    page.goto('http://google.com')
+    print(page.title())
+    browser.close()
+
+with sync_playwright() as playwright:
+    run(playwright)
+```
+
+- Save the file and run the program by clicking on the Run button.
+
+![](./images/vs-code-run.png)
+
 ## Submission
-Submit a screenshot of Visual Studio Code
+
+Submit a screenshot of Visual Studio Code after running the program
 
 
