@@ -5,7 +5,7 @@
 2. After the installer is downloaded, double-click the `.exe` file to run the Python installer.
 3. Select the **Add python.exe to PATH** checkbox, which enables users to launch Python from the command line as shown in the screenshot below.
 4. Click on install now and complete the installer.
-![](./images/python-installer-windows.png)
+![](../images/python-installer-windows.png)
 
 ## Step 2: Install Visual Studio Code
 
@@ -65,7 +65,7 @@ with sync_playwright() as playwright:
 
 - Save the file and run the program by clicking on the Run button.
 
-![](./images/vs-code-run.png)
+![](../images/vs-code-run.png)
 
 ## Submission
 
